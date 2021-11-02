@@ -1,0 +1,23 @@
+{
+  "name": "dual-run-action-example",
+  "version": "1.0.0",
+  "description": "An example of a program that can be run either directly or via GitHub Actions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcnichols/dual-run-action-example.git"
+  },
+  "author": "alexcnichols",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcnichols/dual-run-action-example/issues"
+  },
+  "homepage": "https://github.com/alexcnichols/dual-run-action-example#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "dotenv": "^10.0.0"
+  }
+}
