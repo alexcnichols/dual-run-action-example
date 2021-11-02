@@ -4,9 +4,11 @@ An example of a program that can be run either directly or via GitHub Actions.
 
 ## Running directly
 
-1. Clone
-2. Run `npm install`
-3. Run `node index.js`
+1. Clone locally (or open in GitHub Codespaces)
+1. Create a `./.env` file with the following variables:
+   1. `name=Alex`: The name for the greeting
+1. Run `npm install` in the terminal
+1. Run `node index.js` in the terminal
 
 ## Running as an Actions workflow
 
